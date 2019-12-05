@@ -17,7 +17,7 @@
 ### Optional
 - Install Live Server in VS Code Extension and then right click prject open with Live Server
 
-### 1. Introduction
+### Meaning
 - `Index.html` 
 Its your homepage HTML file. When you navigate to a website its look in root directory for an index.html file.
 
