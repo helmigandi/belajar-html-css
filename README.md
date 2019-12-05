@@ -3,10 +3,11 @@
 - Hyper Text Markup Language (Its Markup not Programming Language)
 - Used to structure content on a web page (images, text, forms etc)
 - We Structure content using HTML tags:
+```html
     <p>content</p>
     <a>link</a>
     <img>
-
+```
 ## What is CSS?
 - Cascading Style Sheets
 - Works alongside HTML
@@ -18,7 +19,7 @@
 
 ### 1. Introduction
 - Index.html
-Its your homepage HTML file. When you navigate to a website its look in root directory for an index.html file.
+...Its your homepage HTML file. When you navigate to a website its look in root directory for an index.html file.
 - <!DOCTYPE html>
 Its defines this document as an html5 document
 - <html>
