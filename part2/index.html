@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+
+        <!--Action attribute: Tells the browser what to do when we submit the form.
+        That is more to do with PHP and server side data-->
+        <!--Name attribute: used for server-side processing, so a PHP file on the server side
+        could use the name field to get the value from particular input field-->
+        <form action="">
+            <label for="username">Input Username: </label>
+            <input type="text" id="username" name="username" placeholder="username" required>
+            <br><br>
+            <label for="email">Enter Email: </label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            
+            <p>Select your age: </p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <input type="radio" name="age" value="26-50" id="option-2">
+            <label for="option-3">26-50</label>
+            <input type="radio" name="age" value="51+" id="option-3">
+            <label for="option-3">51+</label>
+            
+            <br><br>
+
+            <label for="question">Security question</label>
+            <select name="question" id="question">
+                <option value="q1">What Colour are your favorit pair with socks?</option>
+                <option value="q2">If you could be vegetable, what it be?</option>
+                <option value="q3">What is your best ever security question?</option>
+            </select>
+
+            <br><br>
+
+            <label for="answer">Security question answer: </label>
+            <input type="text" id="answer" name="answer">
+
+            <br><br>
+
+            <label for="bio">Your bio: </label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+            <br><br>
+            <input type="submit" value="submit the form" name="" id="">
+        </form>
+
+    </body>
+</html>
