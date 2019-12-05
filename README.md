@@ -18,9 +18,8 @@
 - Install Live Server in VS Code Extension and then right click prject open with Live Server
 
 ### 1. Introduction
-- Index.html
-...Its your homepage HTML file. When you navigate to a website its look in root directory for an index.html file.
-- <!DOCTYPE html>
+- **Index.html** Its your homepage HTML file. When you navigate to a website its look in root directory for an index.html file.
+- **<!DOCTYPE html>**
 Its defines this document as an html5 document
 - <html>
 This is kind of like the root tag of our document
