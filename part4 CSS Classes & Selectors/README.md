@@ -105,7 +105,7 @@
 ```
 
 ```css
-    div{
+div{
     color: lightcoral;
     border: 1px solid grey;
     margin: 40px;
