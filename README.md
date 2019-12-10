@@ -42,7 +42,6 @@ Fore readability it is always to indent like using tab
 
 - `style sheet`
 A list of CSS rules / rule sets
-
 ```css  
 <!--selectors-->
 div{
