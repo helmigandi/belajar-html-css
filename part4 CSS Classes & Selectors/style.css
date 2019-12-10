@@ -1,0 +1,47 @@
+/* p.error{
+    color: red;
+}
+p.success{
+    color: lightgreen;
+}
+p.success.feedback{
+    border: 2px dashed green;
+}
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+/* div .error{
+    color: red;
+}
+div p{
+    color: blue;
+}
+
+a[href*="google"]{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a[href$=".com"]{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
