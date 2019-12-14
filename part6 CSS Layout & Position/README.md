@@ -12,11 +12,12 @@ An element with `position: fixed;` is positioned relative to the viewport, which
 
 4. Absolute
 An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
-
 However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+![absolute](https://github.com/helmiz/belajar-html-css/blob/master/part6%20CSS%20Layout%20%26%20Position/img/absolute.png "absolute")
+
 
 5. Sticky
 An element with position: sticky; is positioned based on the user's scroll position.
-
 A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
 
