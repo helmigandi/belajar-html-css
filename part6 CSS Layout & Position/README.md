@@ -13,7 +13,6 @@ An element with `position: fixed;` is positioned relative to the viewport, which
 4. Absolute
 An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
 However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
-
 ![absolute](https://github.com/helmiz/belajar-html-css/blob/master/part6%20CSS%20Layout%20%26%20Position/img/absolute.png "absolute")
 
 
